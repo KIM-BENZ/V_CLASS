@@ -1247,7 +1247,7 @@
     <div class="hero-gradient-overlay"></div>
     <div class="hero-overlay">
       <h2>THE NEW V-CLASS</h2>
-      <p>V 300 d 4MATIC EXCLUSIVE 1억 2,400만원 · 사전계약 혜택 · 주요 장비 종합 가이드</p>
+      <p>V 300 d 4MATIC EXCLUSIVE 1억 2,400만원부터 · 사전계약 혜택 · 주요 장비 종합 가이드</p>
     </div>
   </section>
 
@@ -1264,14 +1264,18 @@
         <span class="section-tag">PRE-ORDER PRICE & BENEFIT</span>
         <h2 class="section-title">가격과 사전계약 혜택</h2>
       </div>
-      <div class="price-grid">
-        <div class="price-card hl"><div class="p-label">V 300 d 4MATIC EXCLUSIVE</div><div class="p-num">1억 2,400만원</div><div class="p-sub">공식 가격 · VAT 포함</div></div>
-        <div class="price-card"><div class="p-label">사전계약 혜택 ①</div><div class="p-num" style="font-size:1.3rem">에어포트 서비스 무제한</div><div class="p-sub">메르세데스-벤츠 에어포트 서비스</div></div>
-        <div class="price-card"><div class="p-label">사전계약 혜택 ②</div><div class="p-num" style="font-size:1.3rem">기본 보증 1년 연장</div><div class="p-sub">사전계약 조기 마감 시 종료</div></div>
+      <div class="price-grid" style="grid-template-columns:repeat(2,1fr)">
+        <div class="price-card"><div class="p-label">기본 사양</div><div class="p-num">1억 2,400만원</div><div class="p-sub">V 300 d 4MATIC EXCLUSIVE · 부가세 포함</div></div>
+        <div class="price-card hl"><div class="p-label">파노라믹 슬라이딩 루프 선택 시</div><div class="p-num">1억 2,990만원</div><div class="p-sub">루프 옵션 +590만원 (D34)</div></div>
+      </div>
+      <div class="price-grid" style="grid-template-columns:repeat(2,1fr)">
+        <div class="price-card"><div class="p-label">사전계약 혜택 ①</div><div class="p-num" style="font-size:1.3rem">에어포트 서비스 횟수 제한 없음</div><div class="p-sub">메르세데스-벤츠 에어포트 서비스</div></div>
+        <div class="price-card"><div class="p-label">사전계약 혜택 ②</div><div class="p-num" style="font-size:1.3rem">기본 보증 기간 1년 연장</div><div class="p-sub">조기 마감될 수 있습니다</div></div>
       </div>
       <ul class="note-list">
-        <li>2026년 10월 21일 사전계약이 시작되었고, 고객 인도는 11월부터 시작됩니다.</li>
-        <li>사전계약 혜택의 적용 조건과 기간은 변경될 수 있으니 계약 전 확인해 주세요.</li>
+        <li>가격은 부가세 포함이며 등록비와 탁송료는 별도입니다.</li>
+        <li>2026년 10월 21일 사전계약이 시작되었고, 고객 인도는 11월부터 시작됩니다. 계약금은 300만원입니다.</li>
+        <li>사전계약 혜택의 적용 조건과 기간은 변경될 수 있으니 계약 전 확인해 주세요. 당월 할인과 금융 조건은 상담 시 함께 안내해 드립니다.</li>
       </ul>
     </section>
 
@@ -1285,10 +1289,10 @@
       </div>
       <div class="top-detail-card">
         <div class="img-placeholder img-wrapper">
-          <span>[사진: 뒷좌석 럭셔리 시트]</span>
-          <img src="images/v-top-seat.jpg" alt="뒷좌석 럭셔리 시트" class="clickable-img" onerror="this.style.display='none'">
+          <span>[사진: 2열 럭셔리 시트]</span>
+          <img src="images/v-top-seat.jpg" alt="2열 럭셔리 시트" class="clickable-img" onerror="this.style.display='none'">
         </div>
-        <div class="top-detail-info"><h4>뒷좌석 럭셔리 시트</h4></div>
+        <div class="top-detail-info"><h4>2열 럭셔리 시트</h4></div>
       </div>
       <div class="top-detail-card">
         <div class="img-placeholder img-wrapper">
@@ -1323,6 +1327,66 @@
       </div>
     </section>
 
+    <section class="lineup-section vs-wrap">
+      <style>
+        .vs-wrap .vs-top{display:flex;align-items:center;gap:1.5rem;margin-bottom:1rem}
+        .vs-wrap .vs-big{font-size:3.2rem;font-weight:800;color:var(--mb-white);line-height:1;white-space:nowrap}
+        .vs-wrap .vs-big small{font-size:1.1rem;color:var(--mb-silver);font-weight:500;margin-left:.2rem}
+        .vs-wrap .vs-svg{width:100%;max-width:760px;height:auto;display:block;margin:0 auto}
+        .vs-wrap .vs-svg .body{fill:var(--mb-dark-gray);stroke:var(--mb-silver);stroke-width:2}
+        .vs-wrap .vs-svg .glass{fill:#2b4a63}
+        .vs-wrap .vs-svg .s{fill:#3a3d44;stroke:#555a63}
+        .vs-wrap .vs-svg .lux{fill:#8d7650;stroke:#b8a073}
+        .vs-wrap .vs-svg text{fill:#fff;font-size:15px;font-weight:700;font-family:inherit}
+        .vs-wrap .vs-svg .lbl{fill:var(--mb-silver);font-size:12px;font-weight:500}
+        .vs-wrap .vs-svg .door{stroke:var(--mb-highlight);stroke-width:3}
+        .vs-wrap .vs-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:.8rem;margin-top:1rem}
+        .vs-wrap .vs-row{background:var(--mb-card-bg);border:1px solid var(--mb-border);border-radius:10px;padding:1rem}
+        .vs-wrap .vs-img{aspect-ratio:16/10;margin-bottom:.7rem;border-radius:8px;overflow:hidden}.vs-wrap .vs-row.hl{border-color:#b8a073}
+        .vs-wrap .vs-row h4{display:flex;justify-content:space-between;font-size:.95rem;color:var(--mb-white);margin-bottom:.3rem}
+        .vs-wrap .vs-row h4 b{color:var(--mb-accent)}
+        .vs-wrap .vs-row p{font-size:.78rem;color:var(--mb-silver);line-height:1.55}
+        @media(max-width:650px){.vs-wrap .vs-grid{grid-template-columns:1fr}.vs-wrap .vs-big{font-size:2.4rem}}
+      </style>
+      <div class="section-title-wrap">
+        <span class="section-tag">SEATING LAYOUT</span>
+        <h2 class="section-title">몇 명이, 어떻게 앉을까</h2>
+      </div>
+      <div class="vs-top"><div class="vs-big">7<small>인승</small></div><p class="note-list" style="margin:0">앞좌석 2석 + 2열 독립 럭셔리 시트 2석 + 3열 컴포트 벤치 3석 구성입니다.</p></div>
+      <svg viewBox="0 0 760 270" role="img" aria-label="V-Class 7인승 좌석 배치도 (위에서 본 모습)" class="vs-svg">
+        <rect class="body" x="20" y="30" width="720" height="210" rx="95"/>
+        <rect class="glass" x="150" y="62" width="14" height="146" rx="4"/>
+        <rect class="s" x="190" y="58" width="76" height="64" rx="10"/><text x="228.0" y="95.0" text-anchor="middle">동반석</text>
+        <rect class="s" x="190" y="148" width="76" height="64" rx="10"/><text x="228.0" y="185.0" text-anchor="middle">운전석</text>
+        <rect class="lux" x="350" y="52" width="92" height="72" rx="10"/><text x="396.0" y="93.0" text-anchor="middle">2열<tspan x="396" dy="16">럭셔리</tspan></text>
+        <rect class="lux" x="350" y="146" width="92" height="72" rx="10"/><text x="396.0" y="187.0" text-anchor="middle">2열<tspan x="396" dy="16">럭셔리</tspan></text>
+        <rect class="s" x="570" y="52" width="84" height="50" rx="10"/><text x="612.0" y="82.0" text-anchor="middle">3열</text>
+        <rect class="s" x="570" y="110" width="84" height="50" rx="10"/><text x="612.0" y="140.0" text-anchor="middle">벤치</text>
+        <rect class="s" x="570" y="168" width="84" height="50" rx="10"/><text x="612.0" y="198.0" text-anchor="middle">3열</text>
+        <line class="door" x1="330" y1="24" x2="470" y2="24"/><text class="lbl" x="400" y="16" text-anchor="middle">전동 슬라이딩 도어</text>
+        <line class="door" x1="330" y1="246" x2="470" y2="246"/><text class="lbl" x="400" y="264" text-anchor="middle">전동 슬라이딩 도어</text>
+        <text class="lbl" x="30" y="136" >◀ 진행 방향</text>
+      </svg>
+      <div class="vs-grid">
+        <div class="vs-row"><div class="img-placeholder img-wrapper vs-img"><span>[사진: 앞좌석]</span><img src="images/v-seat-front.jpg" alt="앞좌석" class="clickable-img" onerror="this.style.display='none'"></div><h4>앞좌석 <b>2석</b></h4><p>운전석 · 동반석<br>열선·통풍, 메모리, 열선 스티어링 휠</p></div>
+        <div class="vs-row hl"><div class="img-placeholder img-wrapper vs-img"><span>[사진: 2열 럭셔리 시트]</span><img src="images/v-seat-rear.jpg" alt="2열 럭셔리 시트" class="clickable-img" onerror="this.style.display='none'"></div><h4>2열 <b>2석</b></h4><p>독립 럭셔리 시트<br>마사지 · 열선·통풍 · 전동 종아리 받침대 · 무선 충전</p></div>
+        <div class="vs-row"><div class="img-placeholder img-wrapper vs-img"><span>[사진: 3열 컴포트 벤치]</span><img src="images/v-bench.jpg" alt="3열 컴포트 벤치" class="clickable-img" onerror="this.style.display='none'"></div><h4>3열 <b>3석</b></h4><p>3인승 이지 엔트리 컴포트 벤치<br>접이식, 등받이 각도 조절</p></div>
+      </div>
+      <ul class="note-list" style="margin:1rem 0 0"><li>일부 자료에서는 2열을 "뒷좌석 1열", 3열 벤치를 "2열"이라고 적기도 합니다. 이 페이지는 앞좌석·2열·3열 호칭으로 통일했습니다.</li></ul>
+    </section>
+
+    <section class="lineup-section">
+      <div class="section-title-wrap">
+        <span class="section-tag">HOW TO PRE-ORDER</span>
+        <h2 class="section-title">사전계약 진행 안내</h2>
+      </div>
+      <div class="grid-common" style="grid-template-columns:repeat(3,1fr);">
+        <div class="common-card"><span class="section-tag">STEP 1</span><h3>상담</h3><ul><li>색상·휠·트림·루프 선택</li><li>7인승 구성과 사전계약 혜택 확인</li></ul></div>
+        <div class="common-card"><span class="section-tag">STEP 2</span><h3>계약금 300만원</h3><ul><li>계약서 작성 후 계약금 납부</li><li>V 300 d 4MATIC EXCLUSIVE 1억 2,400만원</li></ul></div>
+        <div class="common-card"><span class="section-tag">STEP 3</span><h3>출고 안내</h3><ul><li>차량 배정 후 출고 일정 안내</li><li>고객 인도는 11월부터 시작</li></ul></div>
+      </div>
+    </section>
+
     <section class="cockpit-section tech-section">
       <style>
         .tech-wrap{position:relative}
@@ -1339,7 +1403,7 @@
         .tech-dots i{width:7px;height:7px;border-radius:50%;background:var(--mb-border);display:block}
         .tech-dots i.on{background:var(--mb-accent);width:18px;border-radius:4px}
         .tech-hint{display:none;text-align:center;font-size:.75rem;color:var(--mb-silver);margin-top:.6rem}
-        @media(max-width:650px){.tech-card{flex-basis:82%}.tech-arrow{display:none}.tech-hint{display:block}}
+        @media(max-width:650px){.v-choice{grid-template-columns:repeat(2,1fr) !important}.grid-common{grid-template-columns:1fr !important}.tech-card{flex-basis:82%}.tech-arrow{display:none}.tech-hint{display:block}}
       </style>
       <div class="section-title-wrap">
         <span class="section-tag">COMFORT & TECHNOLOGY</span>
@@ -1362,18 +1426,18 @@
         </div>
         <div class="tech-card">
           <div class="img-placeholder img-wrapper">
-            <span>[사진: 뒷좌석 럭셔리 시트 · 마사지]</span>
-            <img src="images/v-seat-rear.jpg" alt="뒷좌석 럭셔리 시트 · 마사지" class="clickable-img" onerror="this.style.display='none'">
+            <span>[사진: 2열 럭셔리 시트 · 마사지]</span>
+            <img src="images/v-seat-rear.jpg" alt="2열 럭셔리 시트 · 마사지" class="clickable-img" onerror="this.style.display='none'">
           </div>
-          <h4>뒷좌석 럭셔리 시트 · 마사지</h4>
-          <p>뒷좌석 1열 럭셔리 시트에 열선·통풍, 개별 조절 마사지 기능과 전동 종아리 받침대를 갖췄습니다.</p>
+          <h4>2열 럭셔리 시트 · 마사지</h4>
+          <p>2열 럭셔리 시트에 열선·통풍, 개별 조절 마사지 기능과 전동 종아리 받침대를 갖췄습니다.</p>
         </div>
         <div class="tech-card">
           <div class="img-placeholder img-wrapper">
-            <span>[사진: 2열 3인승 이지 엔트리 컴포트 벤치]</span>
-            <img src="images/v-bench.jpg" alt="2열 3인승 이지 엔트리 컴포트 벤치" class="clickable-img" onerror="this.style.display='none'">
+            <span>[사진: 3열 3인승 이지 엔트리 컴포트 벤치]</span>
+            <img src="images/v-bench.jpg" alt="3열 3인승 이지 엔트리 컴포트 벤치" class="clickable-img" onerror="this.style.display='none'">
           </div>
-          <h4>2열 3인승 이지 엔트리 컴포트 벤치</h4>
+          <h4>3열 3인승 이지 엔트리 컴포트 벤치</h4>
           <p>3인승 컴포트 벤치 시트로 승하차가 편하도록 구성했습니다.</p>
         </div>
         <div class="tech-card">
@@ -1398,7 +1462,7 @@
             <img src="images/v-burmester.jpg" alt="부메스터 서라운드 사운드" class="clickable-img" onerror="this.style.display='none'">
           </div>
           <h4>부메스터 서라운드 사운드</h4>
-          <p>부메스터 서라운드 사운드 시스템으로 실내에서 풍성한 음향을 즐길 수 있습니다.</p>
+          <p>스피커 15개, 최대 640W의 부메스터 서라운드 사운드로 어느 좌석에서나 고르게 들립니다.</p>
         </div>
         <div class="tech-card">
           <div class="img-placeholder img-wrapper">
@@ -1422,7 +1486,7 @@
             <img src="images/v-seat-front.jpg" alt="앞좌석 열선 · 통풍 · 메모리" class="clickable-img" onerror="this.style.display='none'">
           </div>
           <h4>앞좌석 열선 · 통풍 · 메모리</h4>
-          <p>앞좌석과 뒷좌석 1열에 메모리 패키지를 적용했고, 운전석과 동승석에 열선·통풍을 갖췄습니다.</p>
+          <p>앞좌석과 2열에 메모리 패키지를 적용했고, 운전석과 동승석에 열선·통풍을 갖췄습니다.</p>
         </div>
         <div class="tech-card">
           <div class="img-placeholder img-wrapper">
@@ -1430,7 +1494,7 @@
             <img src="images/v-ambient.jpg" alt="앰비언트 라이트 · 무선 충전" class="clickable-img" onerror="this.style.display='none'">
           </div>
           <h4>앰비언트 라이트 · 무선 충전</h4>
-          <p>앰비언트 라이트로 실내 분위기를 만들고, 뒷좌석 1열에서는 무선 충전을 쓸 수 있습니다.</p>
+          <p>앰비언트 라이트로 실내 분위기를 만들고, 2열에서는 무선 충전을 쓸 수 있습니다.</p>
         </div>
         <div class="tech-card">
           <div class="img-placeholder img-wrapper">
@@ -1438,7 +1502,7 @@
             <img src="images/v-roof.jpg" alt="파노라믹 슬라이딩 루프 (선택)" class="clickable-img" onerror="this.style.display='none'">
           </div>
           <h4>파노라믹 슬라이딩 루프 (선택)</h4>
-          <p>유료 선택 사양으로, 실내를 더 밝고 개방감 있게 만들 수 있습니다.</p>
+          <p>유일한 유료 옵션(+590만원)으로, 1,900 × 1,120mm 대형 글라스 루프가 실내를 환하게 열어 줍니다.</p>
         </div>
         </div>
         <button class="tech-arrow next" type="button" aria-label="다음">›</button>
@@ -1507,22 +1571,99 @@
       </div>
     </section>
 
-    <section class="lineup-section">
+    <section class="lineup-section vc-compact">
+      <style>
+        .vc-compact .vc-sum{display:grid;grid-template-columns:1fr 1fr;gap:.8rem;margin-bottom:1.2rem}
+        .vc-compact .vc-sum div{background:var(--mb-card-bg);border:1px solid var(--mb-border);border-radius:10px;padding:.9rem 1.1rem;font-size:.9rem;color:var(--mb-silver)}
+        .vc-compact .vc-sum strong{display:block;color:var(--mb-white);font-size:1rem;margin-bottom:.2rem}
+        .vc-compact .vc-sum .paid{border-color:var(--mb-accent)}
+        .vc-compact .vc-group{font-size:.85rem;color:var(--mb-silver);margin:1.1rem 0 .6rem;font-weight:600}
+        .vc-compact .v-choice{gap:.7rem;margin-bottom:0 !important}
+        .vc-compact .wheel-card{padding:.6rem}
+        .vc-compact .wheel-img{aspect-ratio:16/10 !important;margin-bottom:.5rem}
+        .vc-compact .wheel-card h5{font-size:.82rem;line-height:1.35}
+        .vc-compact .wheel-card span:not(.x){font-size:.72rem}
+        @media(max-width:650px){.vc-compact .vc-sum{grid-template-columns:1fr}}
+      </style>
       <div class="section-title-wrap">
-        <span class="section-tag">WHEEL & TRIM OPTION</span>
-        <h2 class="section-title">휠 · 트림 선택</h2>
+        <span class="section-tag">OPTION & CHOICE</span>
+        <h2 class="section-title">고를 수 있는 구성</h2>
       </div>
-      <div class="table-wrapper">
-        <table>
-          <thead><tr><th style="width:24%;">구분</th><th>선택 가능 구성</th><th style="width:26%;">비고</th></tr></thead>
-          <tbody>
-            <tr><td>휠</td><td>19인치 모노블록 경량 알로이 (R19) · 19인치 10스포크 경량 알로이 (R1Q)</td><td>기본 19인치 모노블록</td></tr>
-            <tr><td>트림</td><td>오픈포어 우드룩 (F3T) · 익스클루시브 (FB2)</td><td>선택 사양</td></tr>
-            <tr><td>파노라믹 슬라이딩 루프</td><td>유료 선택 사양</td><td>금액은 상담 시 안내</td></tr>
-          </tbody>
-        </table>
+      <div class="vc-sum">
+        <div><strong>추가 비용 없이 선택</strong>외장 색상 · 시트 · 휠 · 실내 트림 · 루프 라이너</div>
+        <div class="paid"><strong>유료 옵션 1가지</strong>파노라믹 슬라이딩 루프 (D34) +590만원</div>
       </div>
-      <ul class="note-list" style="margin-top:-2.5rem"><li>선택 사양의 금액과 적용 가능 여부는 생산 시기와 조합에 따라 달라질 수 있습니다.</li></ul>
+      <div class="vc-group">휠 · 실내 트림</div>
+      <div class="wheel-grid v-choice" style="grid-template-columns:repeat(4,1fr)">
+        <div class="wheel-card">
+          <div class="img-placeholder img-wrapper wheel-img">
+            <span>[사진: 19인치 모노블록 휠]</span>
+            <img src="images/wheel-r19.jpg" alt="19인치 모노블록 휠" class="clickable-img" onerror="this.style.display='none'">
+          </div>
+          <h5>19" 모노블록 (R19)</h5>
+          <span>기본</span>
+        </div>
+        <div class="wheel-card">
+          <div class="img-placeholder img-wrapper wheel-img">
+            <span>[사진: 19인치 10스포크 휠]</span>
+            <img src="images/wheel-r1q.jpg" alt="19인치 10스포크 휠" class="clickable-img" onerror="this.style.display='none'">
+          </div>
+          <h5>19" 10스포크 (R1Q)</h5>
+          <span>선택</span>
+        </div>
+        <div class="wheel-card">
+          <div class="img-placeholder img-wrapper wheel-img">
+            <span>[사진: 오픈포어 우드룩 트림]</span>
+            <img src="images/trim-f3t.jpg" alt="오픈포어 우드룩 트림" class="clickable-img" onerror="this.style.display='none'">
+          </div>
+          <h5>오픈포어 우드룩 (F3T)</h5>
+          <span>기본</span>
+        </div>
+        <div class="wheel-card">
+          <div class="img-placeholder img-wrapper wheel-img">
+            <span>[사진: 익스클루시브 트림]</span>
+            <img src="images/trim-fb2.jpg" alt="익스클루시브 트림" class="clickable-img" onerror="this.style.display='none'">
+          </div>
+          <h5>익스클루시브 (FB2)</h5>
+          <span>선택</span>
+        </div>
+      </div>
+      <div class="vc-group">루프 라이너 · 선루프 없음 / 선택 시</div>
+      <div class="wheel-grid v-choice" style="grid-template-columns:repeat(4,1fr)">
+        <div class="wheel-card">
+          <div class="img-placeholder img-wrapper wheel-img">
+            <span>[사진: 블랙 루프 라이너]</span>
+            <img src="images/liner-vd7.jpg" alt="블랙 루프 라이너" class="clickable-img" onerror="this.style.display='none'">
+          </div>
+          <h5>블랙 (VD7)</h5>
+          <span>선루프 없음</span>
+        </div>
+        <div class="wheel-card">
+          <div class="img-placeholder img-wrapper wheel-img">
+            <span>[사진: 포슬린 루프 라이너]</span>
+            <img src="images/liner-vd6.jpg" alt="포슬린 루프 라이너" class="clickable-img" onerror="this.style.display='none'">
+          </div>
+          <h5>포슬린 (VD6)</h5>
+          <span>선루프 없음</span>
+        </div>
+        <div class="wheel-card">
+          <div class="img-placeholder img-wrapper wheel-img">
+            <span>[사진: 블랙 MICROCUT 루프 라이너]</span>
+            <img src="images/liner-vd9.jpg" alt="블랙 MICROCUT 루프 라이너" class="clickable-img" onerror="this.style.display='none'">
+          </div>
+          <h5>블랙 MICROCUT (VD9)</h5>
+          <span>선루프 선택 시</span>
+        </div>
+        <div class="wheel-card">
+          <div class="img-placeholder img-wrapper wheel-img">
+            <span>[사진: 포슬린 MICROCUT 루프 라이너]</span>
+            <img src="images/liner-vd8.jpg" alt="포슬린 MICROCUT 루프 라이너" class="clickable-img" onerror="this.style.display='none'">
+          </div>
+          <h5>포슬린 MICROCUT (VD8)</h5>
+          <span>선루프 선택 시</span>
+        </div>
+      </div>
+      <ul class="note-list" style="margin:1rem 0 0"><li>외장 색상은 위 컬러 선택에서 확인하세요. 선택 가능 여부는 생산·재고 상황에 따라 달라질 수 있습니다.</li></ul>
     </section>
 
     <section class="lineup-section">
@@ -1548,19 +1689,34 @@
 <tr><td>루프</td><td>파노라믹 슬라이딩 루프 (유료 선택)</td></tr>
 <tr><td>내장·트림</td><td>나파 가죽 · 오픈포어 우드 / 익스클루시브 트림 선택</td></tr>
 <tr><td>스티어링</td><td>다기능 · 열선 스티어링 휠</td></tr>
-<tr><td>시트</td><td>앞좌석·뒷좌석 1열 열선·통풍 · 앞/뒷좌석 1열 메모리 · 뒷좌석 1열 마사지 · 2열 3인승 컴포트 벤치</td></tr>
-<tr><td>공조</td><td>자동 온도 조절 시스템</td></tr>
+<tr><td>시트</td><td>앞좌석·2열 열선·통풍 · 앞좌석/2열 메모리 · 2열 마사지 · 3열 3인승 컴포트 벤치</td></tr>
+<tr><td>공조</td><td>서모트로닉 2존 자동 온도 조절</td></tr>
 <tr><td>헤드램프·조명</td><td>MULTIBEAM LED · 상향등 어시스트 · 앰비언트 라이트</td></tr>
 <tr><td>안전·주행 보조</td><td>브레이크 어시스트 · 차선 이탈 방지 · 경사로 밀림 방지 · 사각지대 어시스트 · PRE-SAFE · 주의 어시스트 · 트레일러 어시스트</td></tr>
+<tr><td>주행 보조</td><td>액티브 디스턴스 어시스트 디스트로닉</td></tr>
 <tr><td>주차</td><td>360° 카메라가 포함된 주차 어시스트 · PARKTRONIC</td></tr>
-<tr><td>텔레매틱스</td><td>NTG 7 · 내비게이션 · 스마트폰 통합 패키지 · 뒷좌석 1열 무선 충전</td></tr>
-<tr><td>사운드</td><td>부메스터 서라운드 사운드 시스템</td></tr>
+<tr><td>텔레매틱스</td><td>NTG 7 · 내비게이션 · 스마트폰 통합 패키지 · 2열 무선 충전</td></tr>
+<tr><td>사운드</td><td>부메스터 서라운드 사운드 (스피커 15개 · 최대 640W)</td></tr>
+<tr><td>외관 디테일</td><td>LED 라이트밴드 그릴 · MULTIBEAM LED · 브랜드 로고 프로젝션 · 도어 실 일루미네이션 · 19인치 알로이 휠 · 트렁크 리드 스포일러 립</td></tr>
 <tr><td>편의</td><td>전동 슬라이딩 도어(좌·우) · 전동 테일게이트 · 개폐식 테일게이트 윈도우 · 열선 웻 와이퍼</td></tr>
 <tr><td>뒷좌석 접이식 테이블</td><td>최대 하중 5kg</td></tr>
           </tbody>
         </table>
       </div>
       <ul class="note-list" style="margin-top:-2.5rem"><li>연비는 주행 조건과 운전 습관에 따라 달라질 수 있습니다. 사양은 본사 정책 및 상황에 따라 예고 없이 변경될 수 있습니다.</li></ul>
+    </section>
+
+    <section class="lineup-section">
+      <div class="section-title-wrap">
+        <span class="section-tag">FAQ</span>
+        <h2 class="section-title">자주 묻는 질문</h2>
+      </div>
+      <div class="grid-common" style="grid-template-columns:repeat(2,1fr);">
+        <div class="common-card"><span class="section-tag">Q</span><h3>2열 창문은 열리나요?</h3><ul><li>2열 윈도우는 열리지 않는 구조입니다.</li></ul></div>
+        <div class="common-card"><span class="section-tag">Q</span><h3>뒷좌석 전용 모니터 옵션이 있나요?</h3><ul><li>후석 전용 모니터 옵션은 제공되지 않습니다.</li></ul></div>
+        <div class="common-card"><span class="section-tag">Q</span><h3>시트 등받이는 눕혀지나요?</h3><ul><li>2열 시트 등받이 각도는 조절되지만, 완전히 눕혀지지는 않습니다.</li></ul></div>
+        <div class="common-card"><span class="section-tag">Q</span><h3>시트 소재는 무엇인가요?</h3><ul><li>나파 가죽이 기본이며 블랙과 실크 베이지 중 고를 수 있습니다.</li></ul></div>
+      </div>
     </section>
 
     <section class="catalog-download-section">
@@ -1595,7 +1751,7 @@
         <div class="consult-title-row"><span>📢</span><h3>맞춤형 견적 및 시승 상담 안내</h3></div>
         <p class="consult-subtext">
           전국 최고의 조건과 맞춤 금융 설계를 친절하게 도와드리겠습니다.<br>
-          • <strong>사전계약 혜택:</strong> 에어포트 서비스 무제한 · 기본 보증 1년 연장 | 사전계약 상담 가능
+          • <strong>사전계약 혜택:</strong> 에어포트 서비스 횟수 제한 없음 · 기본 보증 1년 연장 | 사전계약 상담 가능
         </p>
       </div>
       <hr class="consult-divider">
